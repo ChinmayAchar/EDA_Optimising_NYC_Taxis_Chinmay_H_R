@@ -2,7 +2,7 @@
 
 Author: Chinmay H R Project Type: Exploratory Data Analysis / Urban Mobility 
 
-Tech Stack: Python (Pandas, Seaborn, Matplotlib, Folium)
+Tech Stack: Python (Pandas, Seaborn, Matplotlib)
 
 (Above: Real-time traffic flow visualization concept - representing the dynamic nature of the dataset)
 

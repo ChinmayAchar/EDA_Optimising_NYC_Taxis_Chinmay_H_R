@@ -8,24 +8,24 @@ Tech Stack: Python (Pandas, Numpy, Seaborn, Matplotlib)
 
 (Above: Real-time traffic flow visualization concept - representing the dynamic nature of the dataset)
 
-📌 Project Overview
+#### 📌 Project Overview
 New York City is a complex ecosystem of transit. For taxi operators, efficiency is the difference between profit and loss. This project utilizes Exploratory Data Analysis (EDA) on millions of NYC taxi trip records to uncover hidden patterns in traffic, passenger demand, and trip duration.
 
-Goal: To provide data-driven recommendations that help fleet operators reduce idle time and maximize fare revenue per hour.
+#### Goal: To provide data-driven recommendations that help fleet operators reduce idle time and maximize fare revenue per hour.
 
-📂 Repository Structure
+#### 📂 Repository Structure
 EDA_Assg_NYC_Taxi_Starter_Chinmay_H_R.ipynb: The core analysis notebook containing data cleaning, feature engineering, and visualization code.
 
 Report_NYC_Taxi_Operations_Starter_by_Chinmay_HR.pdf: Executive summary and strategic insights.
 
 README.md: Project documentation.
 
-⚙️ Data Pipeline
+#### ⚙️ Data Pipeline
 The project follows a rigorous data science workflow:
 
 Shutterstock
 
-Data Cleaning:
+##### Data Cleaning:
 
 Removed "Ghost Trips" (negative duration/distance).
 
@@ -33,15 +33,15 @@ Fixed coordinate anomalies (trips starting in the ocean).
 
 Imputed missing values for store_and_fwd_flag.
 
-Feature Engineering:
+##### Feature Engineering:
 
 Speed Calculation: Derived avg_speed_mph to detect congestion.
 
 Time Binning: Segmented day into "Morning Rush", "Mid-day", "Evening Rush", and "Late Night".
 
-Trip Duration: Calculated exact travel times from pickup/dropoff timestamps.
+##### Trip Duration: Calculated exact travel times from pickup/dropoff timestamps.
 
-📊 Key Visualizations & Analysis
+#### 📊 Key Visualizations & Analysis
 1. Demand Hotspots (Heatmap Animation)
 Understanding where and when demand peaks is crucial. The analysis breaks down demand by hour and day.
 
@@ -63,28 +63,28 @@ We examined the relationships between distance, fare, and duration.
 
 Key Finding: Trip Duration and Fare Amount are not always perfectly correlated due to "waiting time" charges in heavy traffic.
 
-🚀 Strategic Recommendations
+##### 🚀 Strategic Recommendations
 Based on the visual analysis, the following actions are recommended for the client:
 
-Shift Optimization:
+##### Shift Optimization:
 
 Action: Schedule maximum drivers for the Friday-Saturday Night window.
 
 Reason: High demand + faster average speeds (less traffic) = Max Profit.
 
-Route Avoidance:
+##### Route Avoidance:
 
 Action: Avoid cross-town trips in Midtown during Evening Rush (5-7 PM).
 
 Reason: Extremely low speeds reduce the number of possible trips per shift.
 
-Airport Targeting:
+##### Airport Targeting:
 
 Action: Prioritize JFK/LaGuardia trips during Mid-day (11 AM - 3 PM).
 
 Reason: Long-distance fares with moderate traffic offer the best stable revenue.
 
-🛠️ How to Run
+#### 🛠️ How to Run
 Clone the repository.
 
 Install dependencies: pip install pandas matplotlib seaborn folium.

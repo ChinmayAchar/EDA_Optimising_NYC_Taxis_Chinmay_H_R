@@ -1,8 +1,8 @@
 # 🚖 Optimising NYC Taxi Operations (EDA)
 
-Author: Chinmay H R 
+## Author: Chinmay H R 
 
-Project Type: Exploratory Data Analysis / Urban Mobility 
+### Project Type: Exploratory Data Analysis / Urban Mobility 
 
 Tech Stack: Python (Pandas, Numpy, Seaborn, Matplotlib)
 
